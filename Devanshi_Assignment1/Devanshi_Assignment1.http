@@ -1,0 +1,6 @@
+@Devanshi_Assignment1_HostAddress = http://localhost:5145
+
+GET {{Devanshi_Assignment1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
