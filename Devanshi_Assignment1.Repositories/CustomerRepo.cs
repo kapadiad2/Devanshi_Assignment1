@@ -35,8 +35,23 @@ namespace Devanshi_Assignment1.Repositories
             };
         }
 
+        public void AddCustomer(customersss customer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool DeleteCustomer(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<customersss> GetAllCustomers() => _customerss;
 
         public customersss GetCustomerById(int id) => _customerss.FirstOrDefault(c => c.Id == id);
+
+        public bool UpdateCustomer(customersss customer)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
